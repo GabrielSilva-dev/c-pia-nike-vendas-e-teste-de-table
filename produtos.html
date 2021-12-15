@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Produtos</title>
+    <style>
+        #logo {
+            width: 100px;
+        }
+        #menu {
+            background-color: aqua;
+            text-align: center;
+            width: 100%;
+        }
+        #formas-de-pagamento {
+            width: 250px;
+        }
+        .sapatos {
+            width: 40%;
+            margin: 25px 25px 10px 25px;
+            padding: 20px 50px 10px 50px;
+        }
+        a {
+            text-decoration: none;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .produtos {
+            width: 20%;
+            text-align: center;
+            vertical-align: bottom;
+        }
+        .valores {
+            font-size: 14px;
+            text-align: center;
+            font-family: sans-serif;
+            color: red;
+            font-weight: bold;
+        }
+        #tabela-de-produtos {
+            width: 100%;
+            font-size: 17px;
+            height: 100%;
+        }
+        .categorias {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            font-family:Georgia, 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!--Ínicio do Menu-->
+    <table id="menu">
+        <td><a href="index.html"><img id="logo" src="logo.png" alt="logo"></a></td>
+        <td><a href="contato.html">Contato</a></td>
+        <td><a href="lojas.html">Nossas lojas</a></td>
+        <td><a href="produtos.html">Nossos produtos</a></td>
+    </table>
+    <!--Fim do Menu-->
+    <h2>Nossos Produtos</h2>
+    <hr>
+    <table id="tabela-de-produtos">
+        <tr>
+            <td class="categorias">Colecionáveis</td>
+            <td class="categorias">Casuais</td>
+            <td class="categorias">Esportivos</td>
+            <td class="categorias">Passeio</td>
+            <tr>
+            <td class="produtos"><img class="sapatos" src="./img/calçado01.png" alt="calçado01"><p class="valores">R$ 190.00</p></td>
+            <td class="produtos"><img class="sapatos" src="./img/calçado02.png" alt="calçado02"><p class="valores">R$ 285.00</p></td>
+            <td class="produtos"><img class="sapatos" src="./img/calçado03.png" alt="calçado03"><p class="valores">R$ 850.00</p></td>
+            <td class="produtos"><img class="sapatos" src="./img/calçado04.jpg" alt="calçado04"><p class="valores">R$ 545.95</p></td>
+            </tr>
+            <tr>
+            <td class="produtos"><img class="sapatos" src="img/calçado05.jpg" alt="calçado05"><p class="valores">R$ 323.87</p></td>
+            <td class="produtos"><img class="sapatos" src="img/calçado06.jpg" alt="calçado06"><p class="valores">R$ 50.50</p></td>
+            <td class="produtos"><img class="sapatos" src="./img/calçado07.png" alt="calçado07"><p class="valores">R$ 660.87</p></td>
+            <td class="produtos"><img class="sapatos" src="img/calçado08.jpg" alt="calçado08"><p class="valores">R$ 123.45</p></td>
+            </tr>
+        </tr>
+    </table>
+    <h4 style="color: red;">Formas de pagamento</h4>
+    <img id ="formas-de-pagamento" src="formas-de-pagamento.jpg" alt="formas-de-pagamento">
+</body>
+</html>
